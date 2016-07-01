@@ -10,7 +10,7 @@ namespace HelloGit
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello WORLD, from Git!!!!!");
+			Console.WriteLine("Hello WORLD, from GIT!!!!!");
 			Console.ReadLine();
 		}
 	}
