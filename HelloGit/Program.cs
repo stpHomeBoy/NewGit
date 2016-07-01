@@ -38,7 +38,7 @@ namespace HelloGit
 
 		public void Doit()
 		{
-			throw new ArgumentException("Blah Blah");
+			throw new ArgumentException("Blah Blah not found");
 		}
 	}
 }
