@@ -38,8 +38,7 @@ namespace HelloGit
 
 		public void Doit()
 		{
-			Console.WriteLine("Doit!");
-			//throw new ArgumentException("Blah Blah not found");
+			throw new ArgumentException("Blah Blah not found");
 		}
 	}
 }
