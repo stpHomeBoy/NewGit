@@ -13,7 +13,7 @@ namespace HelloGit
 			try
 			{
 				var foo = new Foo();
-				foo.Bar = "None";
+				foo.Bar = "Nah";
 				Console.WriteLine("Hello {0}, from Git!!!!!", foo.Bar);
 
 				foo.Doit();
@@ -24,7 +24,7 @@ namespace HelloGit
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine("ERROR: " + ex);
+				Console.WriteLine("Exception: " + ex);
 				Console.ReadLine();
 				return 1;
 			}
