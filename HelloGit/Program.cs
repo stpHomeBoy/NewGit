@@ -18,12 +18,14 @@ namespace HelloGit
 
 				foo.Doit();
 
+				Console.WriteLine("Goodbye");
 				Console.ReadLine();
 				return 0;
 			}
 			catch (Exception ex)
 			{
-				Console.WriteLine(ex.Message);
+				Console.WriteLine("ERROR: " + ex);
+				Console.ReadLine();
 				return 1;
 			}
 		}
