@@ -13,7 +13,7 @@ namespace HelloGit
 			try
 			{
 				var foo = new Foo();
-				foo.Bar = "None";
+				foo.Bar = "none!!!!";
 				Console.WriteLine("Hello {0}, from Git!!!!!", foo.Bar);
 
 				foo.Doit();
